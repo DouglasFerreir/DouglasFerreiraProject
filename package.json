@@ -1,0 +1,15 @@
+{
+  "name": "douglasferreiraproject",
+  "version": "1.0.0",
+  "description": "Hi! It is Douglas Ferreira here. Currently, I am learning Back-end development, and it has been an amazing journey so I am keen to go on. IF you need my work, please contact me.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^7.6.3"
+  }
+}
