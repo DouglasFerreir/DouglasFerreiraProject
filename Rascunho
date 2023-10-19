@@ -1,0 +1,10 @@
+Moongose =  é um modelo para produtos.
+Async = serve para utilizar o await na função.
+Await = utiliza junto com o produto.find() Significa que  a função ainda está procurando o produto. 
+na localização do produto = produto.find( pode ser preço, nome do produto, codigo de barra, contudo, é necessário completar tudo o que estava cadastrado na array/ matriz)
+exemplo: product.find(nome: "detergente"; preço: 5; codigoDeBarra:123456789)
+findOneAndDelete(): igual ao produto.find, porém serve para deletar o primeiro.
+produto.create() = criar um novo produto.
+produto.findOne() = retorna o primeiro que o moongose encontrar.
+produto.find() = retorna todos os produtos da bilioteca.
+findOneAndUpdate(): igual ao produto.find, porém serve para atualizar o primeiro.
