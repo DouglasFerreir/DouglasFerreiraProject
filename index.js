@@ -43,7 +43,7 @@ const detergente = new Produto({
 
 detergente.save()
 
-console.log("Olá")
+console.log("Salvo nao moongose")
 
 
 Produto.find
@@ -52,4 +52,28 @@ Produto.find
 async function exibeProdutos() {
   console.log(await Produto.find)) 
 }
-exibeProdutos()
+exibeProdutos() 
+
+
+
+
+const moongose = require ('mongoose')
+mongoose.connect = ('mongodb://127.0.0.1:27017/test')
+const filme = mongoose.model('filme',{
+  titulo: string
+  genero: String
+  distribuidora: number
+  produtora: string
+  
+  )}
+ 
+const filme = new Filme({
+titulo: "EuseiOqueVocesFizeramNoVeraoPassado"
+genero: "Terror"
+distribuidora: 001
+produtora: "ColumbiaPictures"
+  )}
+
+  filme.save()
+
+  console.log("Salvo no acervo de filmes")
