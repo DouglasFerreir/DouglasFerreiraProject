@@ -46,7 +46,6 @@ detergente.save()
 console.log("Olá")
 
 
-
 Produto.find
 
 
