@@ -8,3 +8,9 @@ produto.create() = criar um novo produto.
 produto.findOne() = retorna o primeiro que o moongose encontrar.
 produto.find() = retorna todos os produtos da bilioteca.
 findOneAndUpdate(): igual ao produto.find, porém serve para atualizar o primeiro.
+
+control + L = limpa o terminal
+control + : = Utiliza essas duas barras invertidas que servem como marcas para a inserção de um comentário.
+     De acordo com o professor, esses comentários não são levados em consideração no terminal.
+
+dd
