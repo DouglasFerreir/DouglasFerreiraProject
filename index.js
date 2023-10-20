@@ -8,12 +8,12 @@ const Filme = mongoose.model('filme',{
     produtora: String
   })
    
-//   Filme.create({
-//     titulo: "EuseiOqueVocesFizeramNoVeraoPassado",
-//     genero: "Terror",
-//     distribuidora: '001',
-//     produtora: "ColumbiaPictures"
-//   })
+  // Filme.create({
+  //   titulo: "EuseiOqueVocesFizeramNoVeraoPassado",
+  //   genero: "Terror",
+  //   distribuidora: '001',
+  //   produtora: "ColumbiaPictures"
+  // })
 
 async function buscaTodosOsFilmes() {
     console.log(await Filme.find())
