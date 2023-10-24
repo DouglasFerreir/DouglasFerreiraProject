@@ -14,3 +14,24 @@ control + : = Utiliza essas duas barras invertidas que servem como marcas para a
      De acordo com o professor, esses comentários não são levados em consideração no terminal.
 
 Js significa Java Script
+docker compose = utiliza o docker para usar a imagem mong, que é a biblioteca mongoose.
+package.json = é o projeto em si, é criado no Github.
+index.js= termo é comumente utilizado (indice do codigo, que significa onde começa o codigo).
+
+(import mongoose from "mongoose") é uma outra forma utilizada ao inves de "require mongoose" , mas é uma forma diferente a ser perguntada ao professor
+
+dontpad.com/aulaSenaiBack
+https://github.com/rafael-dvpy/rep-turma-senai
+modelo =  especie de base genérica.
+entidade modelo =base generica preenchida com os atributos como preço, id, nome, disponibilidade.
+propriedade id = chave unica para cada entidade gerada aleatoriamente no momento de criação.
+find.one = o primeira entidade que encontrar.
+find = encontra todos as entidades/ produto.
+
+api rest tela de texto que muda baseado no link. Arquitetura mvc. 
+
+pesquisar minimundo na internet para se tirar um exemplo. 
+
+carrinho de compra é um vetor.
+
+crude (create, read, update, delete) 4 maneiras de armazenamento persistente.
