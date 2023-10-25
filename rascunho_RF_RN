@@ -1,0 +1,9 @@
+Farmacia
+
+Requisitos funcionais: 
+1)A venda online não pode acontecer se não haver mais estoques disponíveis.
+2)Medicamentos definidos como premium não deve ser vendidos com desconto acima de 30%
+3)O colaborador não deve acessar e modificar se não houver nível funcional para tal
+
+Detalhamento de um deles:
+O colaborador só poderá ter acesso intrassistemico ao seu respectivo departamento em que está lotado e modificar apenas o seu respectivo trabalho enquanto não have o parecer do superior hierárquico.
