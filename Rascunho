@@ -35,3 +35,5 @@ pesquisar minimundo na internet para se tirar um exemplo.
 carrinho de compra é um vetor.
 
 crude (create, read, update, delete) 4 maneiras de armazenamento persistente.
+find: acha todas as entidades modelos.
+find one: acha a primeira entidade modelo do banco mongoose.
