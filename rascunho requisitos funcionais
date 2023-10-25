@@ -1,0 +1,39 @@
+Farmacia Douglas Project
+
+****Requisitos Funcionais
+
+Registrar novas compras dos consumidores.
+Registrar compras de fornecedores e emitir as notas fiscais
+registrar e autorizar pagamentos de cartão de credito, débito e pix.
+Calcular custos de entrega.
+Emitir sugestões de compras para compradores baseadas em compras anteriores.
+Medicamentos premium não podem ter descontos aplicados acima de 30%.
+
+
+****Detalhamento
+
+1) Registrar e autorizar pagamentos de cartão de credito, débito e pix.
+
+Descrição: O operador de caixa realiza o atendimento, e inicia o processo de pagamento com o cliente. 
+O processo deve ser todo automatizado. 
+A maquina deve ser acionada para a inserção de senha dos cartões dos clientes.
+O sistema deve registrar ao total da compra e a modalidade efetuada, inclusive o parcelamento.
+O sistema deve gerar um código unico a cada vez que o cliente decida optar pela modalidade Pix, identificando também 
+o total e os itens.
+Informar o Qr code ao cliente por meio de "hardware especifico".
+Fontes:
+
+
+Usuário: Os operadores de caixa, gerente da filial.
+
+
+Informações de entrada: Os itens escolhidos pelos clientes bipados por hardware da empresa e inseridos no banco de dados.
+
+
+Informações de saída: O cupom fiscal do cliente.
+
+
+Restriçoes Lógicas: Não há
+
+
+Restrições tecnológicas: O cupom fiscal deve ser estruturado de acordo com a legislação.
